@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b5dccd;
+}
+
+header {
+    background-color: #D9534F;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#logo{
+    height: 35px;
+}
+#bell{
+height:30px;
+}
+
+#icons {
+    cursor: pointer;
+    position: relative;
+}
+
+.notification-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+main {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+aside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #00784A;
+    padding: 20px;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin-top: 55.5px;
+    height: 1050px;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 240px; 
+    margin-top: 60px; 
+}
+
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #00a365;
+}
+
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-info,
+.connection-item,
+.favorite-item,
+.search-history-item {
+    margin-bottom: 20px;
+}
+
+.item-details {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#logout:hover{
+    background-color: #D9534F;
+}
+
+
+#user{
+    padding:10px;
+    background-color: #8c8686;
+    height:80px;
+}
+a{
+    text-decoration: none;
+}

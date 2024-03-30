@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpeg');
+    background-size: cover;
+}
+
+header {
+    background-color:#D9534F;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    height:30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgb(248, 248, 248,0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#bmiDisplay {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height:35px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #3e9243;
+}
+
+.last {
+display: flex;
+justify-content: right;
+}
+
+#submit_button{
+text-align: center;
+}
+
+#logo{
+    float:left;
+    height:30px;
+}
+
+#user{
+    float:right;
+    height:30px;
+}
+
+#signup-section-container {
+    background-color: rgb(0, 120, 74,0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
+    height:80px;
+color:white;
+font-family:Cambria;
+}
+
+#signup-section h2 {
+    margin-bottom: 10px;
+}
+
+h3{
+float:right;
+margin-right:5px;
+margin-top: 5px;
+font-family:sans-serif;
+font-weight: 500;
+}
+
+h4{
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 0.7px;
+    font-weight: 500;
+}
+

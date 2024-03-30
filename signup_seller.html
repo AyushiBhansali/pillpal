@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+<link href = "signup.css" rel = "stylesheet" type = "text/css">
+</head>
+<body>
+
+    <header>
+<img src = "pillpal_logo2.png" alt = "logo" id = "logo">
+<img src = "user.png" alt = "user" id = "user">
+<h3>Seller</h3>
+    </header>
+
+    <div id="signup-section-container">
+        <div id="signup-section">
+            <h2>Sign Up</h2>
+            <p>Enter the credentials to create an account</p>
+        </div>
+    </div>
+
+    <form action="signup2_seller.html" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" oninput="calculateBMI()">
+      
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" oninput="calculateBMI()">
+
+  <label for="bmi">BMI:</label>
+  <input type="text" id="bmi"readonly>
+
+        <label for="bloodGroup">Blood Group:</label>
+        <select id="bloodGroup" name="bloodGroup" required>
+            <option value="A+">A+</option>
+            <option value="B+">B+</option>
+            <option value="AB+">AB+</option>
+            <option value="O+">O+</option>
+            <option value="A-">A-</option>
+            <option value="B-">B-</option>
+            <option value="AB-">AB-</option>
+            <option value="O-">O-</option>
+        </select>
+
+        <label for="healthDiseases">Previous Health Diseases:</label>
+        <input type="text" id="healthDiseases" name="healthDiseases">
+
+        <label for="geneticDiseases">Genetic Diseases:</label>
+        <input type="text" id="geneticDiseases" name="geneticDiseases">
+
+        <label for="medications">Medications On (Yes/No):</label>
+        <select id="medications" name="medications" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+
+        <label for="pinCode">Pin Code:</label>
+        <input type="text" id="pinCode" name="pinCode" required>
+
+        <div class = "last">
+            <h4>I allow access to my data</h4>
+            <label>
+            <input type="checkbox" required>
+            </label>
+        </div>
+
+        <div id = "submit_button">
+            <button type="submit">Sign Up</button>
+        </div>
+    
+    </form>
+<script>
+  function calculateBMI() {
+    const heightInput = document.getElementById('height');
+    const weightInput = document.getElementById('weight');
+    const bmiInput = document.getElementById('bmi');
+
+    const height = parseFloat(heightInput.value);
+    const weight = parseFloat(weightInput.value);
+
+    if (!isNaN(height) && !isNaN(weight)) {
+      const bmi = (weight / Math.pow(height / 100, 2)).toFixed(2);
+      bmiInput.value = bmi;
+    } else {
+      bmiInput.value = '';
+    }
+  }
+</script>
+    
+
+</body>
+</html>

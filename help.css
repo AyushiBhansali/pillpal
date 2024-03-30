@@ -1,0 +1,205 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #b5dccd;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        header {
+            background-image: url('header.jpg');
+            background-size: cover;
+            background-color: white;
+            text-align: center;
+            padding: 30px;
+            height: 55px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2px;
+        }
+    
+        .options {
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+            color: white;
+        }
+        
+        .options a {
+            text-decoration: none;
+            margin-left: 20px;
+            color:white;
+            font-size: large;
+        }
+    
+        .options a:hover {
+            text-decoration: underline;
+        }
+
+        #logo {
+            height:35px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        main {
+            padding: 40px 0;
+            background-color: rgb(255, 255, 255,0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        main:hover{
+            background-color: rgba(255, 252, 252, 0.8);
+        }
+
+        .page-title {
+            color: #4CAF50;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .section-title {
+            color: #4CAF50;
+            margin: 20px;
+            
+        }
+
+        .section-description {
+            color: #555;
+            margin-left: 20px;
+        }
+
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-label {
+            display: block;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .form-input,
+        .form-textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-button {
+            background-color: #4CAF50;
+            color: #ffffff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .form-button:hover {
+            background-color: #45a049;
+        }
+
+        .container2 {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+        }
+
+        .dropdown {
+            display: inline-block;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+.dropdown:hover{
+    background-color: rgb(228, 228, 228);
+}
+        footer {
+            background-color: #474747;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 40px;
+            color: #fff;
+          }
+        
+          footer a {
+            text-decoration: none;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+        
+        footer i {
+            font-size: 24px;
+            margin-bottom: 5px;
+          }
+        
+        .icon{
+            width: 25px;
+            height: 25px;
+          }
+          a:hover{
+            text-decoration: underline;
+          }
+        
+        footer:hover{
+            background-color: #404040;
+        }
+
+        .start_section {
+            max-width: 760px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #00784A;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            line-height: 1.6;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+             transition: background-color 0.3s ease-in-out;
+        }
+
+          .start_section:hover{
+            background-color: #026841;
+          }

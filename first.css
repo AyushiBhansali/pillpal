@@ -1,0 +1,124 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpeg');
+    background-size: cover;
+    color: black;
+}
+
+
+.info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    line-height: 1.6;
+    color:black;
+    border-radius: 15px;
+    background: rgb(248, 248, 248,0.75);
+}
+.info:hover{
+    background: rgb(248, 248, 248,0.9);
+}
+#logo {
+    max-height: 35px;
+    display: block;
+    margin: 0 auto;
+    float:left;
+    margin:5px;
+}
+
+#question {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 5px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    border-style:initial;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+
+.button:hover {
+    background-color: #257628;
+    color: #fff;
+}
+
+p {
+    font-size:17px;
+    text-align: justify; 
+    margin-bottom: 20px;
+}
+
+section{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    line-height: 1.6;
+    border-radius: 10px;
+    background: rgba(248, 248, 248, 0.7);
+    color:black;
+}
+section:hover{
+    background: rgb(248, 248, 248,0.9);
+}
+
+.navbar {
+    background-color: #00784A;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    color: #fff;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar i {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+.icon{
+    width: 25px;
+    height: 25px;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+.navbar:hover{
+    background-color: #035e3b;
+}
+
+b{
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+}
